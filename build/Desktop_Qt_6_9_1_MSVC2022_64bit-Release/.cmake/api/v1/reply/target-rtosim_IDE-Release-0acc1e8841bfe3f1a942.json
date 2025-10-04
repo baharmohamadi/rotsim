@@ -1,0 +1,58 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"lib/rtosim/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "rtosim_IDE::@26b6bea64ea19d7b0110",
+	"name" : "rtosim_IDE",
+	"paths" : 
+	{
+		"build" : "lib/rtosim",
+		"source" : "lib/rtosim"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Headers",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "lib/rtosim/rtosim/rtosim.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

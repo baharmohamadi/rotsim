@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/InverseDynamics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim",
+			"paths" : 
+			[
+				"lib/InverseDynamics/rtosim/InverseDynamics.h",
+				"lib/InverseDynamics/rtosim/QueuesToInverseDynamics.h",
+				"lib/InverseDynamics/rtosim/QueueToXForces.h",
+				"lib/InverseDynamics/rtosim/ExternalForceFromQueue.h",
+				"lib/InverseDynamics/rtosim/JointContactFromOpensim.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/MinSizeRel/InverseDynamics.lib"
+			],
+			"targetId" : "InverseDynamics::@57ce7b3921e353d17c0f",
+			"targetIndex" : 3,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/InverseDynamics",
+		"source" : "lib/InverseDynamics"
+	}
+}

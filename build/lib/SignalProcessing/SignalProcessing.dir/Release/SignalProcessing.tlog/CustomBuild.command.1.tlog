@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\RTOSIM\LIB\SIGNALPROCESSING\CMAKELISTS.TXT
+setlocal
+C:\Users\ASUS\CodeBlocks\MinGW\bin\cmake.exe -SC:/Users/ASUS/Desktop/rtosim -BC:/Users/ASUS/Desktop/rtosim/build --check-stamp-file C:/Users/ASUS/Desktop/rtosim/build/lib/SignalProcessing/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

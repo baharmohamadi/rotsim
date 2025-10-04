@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\CMakeFiles\75a0d7f69f283f8eb116685b3addd9ac\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{762A8061-05CC-3774-ABCE-C164393EA221}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

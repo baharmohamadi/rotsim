@@ -1,0 +1,431 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Release/rtosim_ik_from_file.exe"
+		},
+		{
+			"path" : "bin/Release/rtosim_ik_from_file.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"lib/rtosim/CMakeLists.txt",
+			"lib/Common/CMakeLists.txt",
+			"C:/OpenSim 4.5/cmake/OpenSimTargets.cmake",
+			"C:/OpenSim 4.5/cmake/OpenSimConfig.cmake",
+			"build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 60,
+				"parent" : 5
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 50,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 322,
+				"parent" : 8
+			},
+			{
+				"file" : 4,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 90,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 106,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 66,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 74,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 7
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 17,
+					"define" : "BASE_DIR=\"C:/Users/ASUS/Desktop/rtosim\""
+				},
+				{
+					"backtrace" : 16,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/rtosim"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/Common"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/InputDevice"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/Utilities"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/OutputDevice"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/InverseKinematics"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/InverseDynamics"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/Users/ASUS/Desktop/rtosim/lib/SignalProcessing"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/ConcurrencyInstall/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/OpenSim 4.5/sdk/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/OpenSim 4.5/sdk/include/OpenSim"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/OpenSim 4.5/sdk/Simbody/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/OpenSim 4.5/sdk/spdlog/include"
+				},
+				{
+					"backtrace" : 16,
+					"isSystem" : true,
+					"path" : "C:/FilterInstall/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 16,
+			"id" : "Common::@2fb5612c547da95a2da8"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Utilities::@0481113d28085d0ba516"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "OutputDevice::@31be673dcad8c7d32ab2"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "InverseKinematics::@71dc02479236661ca3cf"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "InputDevice::@ef184b226c02836cf020"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "InverseDynamics::@57ce7b3921e353d17c0f"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "SignalProcessing::@67470f21c1e6f00e75d8"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "rtosim_ik_from_file::@145eef247bfb46b6828c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/RTOSIM"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/EHsc /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\InputDevice.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\OutputDevice.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\InverseKinematics.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\InverseDynamics.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\SignalProcessing.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\Common.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\ConcurrencyInstall\\lib\\Concurrency.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\lib\\Release\\Utilities.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\lib\\osimTools.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\lib\\osimAnalyses.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\lib\\osimActuators.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\lib\\osimSimulation.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\lib\\osimCommon.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\spdlog\\lib\\spdlog\\spdlog.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\Simbody\\lib\\SimTKsimbody.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\Simbody\\lib\\SimTKmath.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\Simbody\\lib\\SimTKcommon.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\Simbody\\lib\\liblapack.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\Simbody\\lib\\libblas.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "\"C:\\OpenSim 4.5\\sdk\\lib\\osimLepton.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rtosim_ik_from_file",
+	"nameOnDisk" : "rtosim_ik_from_file.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mainInverseKinematicsFromFile.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

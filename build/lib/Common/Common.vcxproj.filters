@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\MarkerData.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\GeneralisedCoordinatesData.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\ExternalForceData.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\FlowControl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\ExternalLoadProperties.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\ExternalForceProperties.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\QueueData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\MarkerData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\GeneralisedCoordinatesData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\EndOfData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\QueuesSync.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\FlowControl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\Common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\ExternalForceData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\ExternalLoadProperties.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\ExternalForceProperties.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\TimeDifference.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\MarkerSetQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\GeneralisedCoordinatesQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\MultipleExternalForcesQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\ExternalTorquesQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\ScalarVectorQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\SingleExternalForceQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\rtosim\queue\EmgQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\TimeDifference.cpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\lib\Common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{B5D78994-A49C-35F8-9AC4-F9489024FA7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{A8905B1E-8769-39F7-8393-CEAE738CAC96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\QueueToInverseKinematics.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\IKSequencer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\IKSolverParallel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\JobsCreator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\MarkersReferenceFromQueue.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\TimeSequence.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\InverseKinematics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\QueueToInverseKinematics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\IKSequencer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\IKSolverParallel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\IKoutputs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\JobsCreator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\MarkersReferenceFromQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\ThreadPoolJobs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\rtosim\TimeSequence.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\IKoutputs.cpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\ThreadPoolJobs.cpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{B5D78994-A49C-35F8-9AC4-F9489024FA7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{A8905B1E-8769-39F7-8393-CEAE738CAC96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

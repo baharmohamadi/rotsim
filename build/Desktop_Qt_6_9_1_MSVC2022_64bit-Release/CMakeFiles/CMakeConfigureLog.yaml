@@ -1,0 +1,520 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      The system is: Windows - 10.0.22623 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.14+a129329f1 for .NET Framework
+      Build started 8/13/2025 10:37:09 PM.
+      
+      Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.51
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-458lgs"
+      binary: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-458lgs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-458lgs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_00293.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 8/13/2025 10:37:11 PM.
+        
+        Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\cmTC_00293.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_00293.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\Debug\\".
+          Creating directory "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00293.dir\\Debug\\\\" /Fd"cmTC_00293.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_00293.dir\\Debug\\\\" /Fd"cmTC_00293.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\Debug\\cmTC_00293.exe" /INCREMENTAL /ILK:"cmTC_00293.dir\\Debug\\cmTC_00293.ilk" /NOLOGO /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-458lgs/Debug/cmTC_00293.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-458lgs/Debug/cmTC_00293.lib" /MACHINE:X64  /machine:x64 cmTC_00293.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_00293.vcxproj -> C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\Debug\\cmTC_00293.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\Debug\\cmTC_00293.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\cmTC_00293.write.1u.tlog" "cmTC_00293.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\Debug\\cmTC_00293.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\cmTC_00293.write.1u.tlog" "cmTC_00293.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\Debug\\cmTC_00293.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\cmTC_00293.write.1u.tlog" "cmTC_00293.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\unsuccessfulbuild".
+          Touching "cmTC_00293.dir\\Debug\\cmTC_00293.tlog\\cmTC_00293.lastbuildstate".
+        Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-458lgs\\cmTC_00293.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:29 (enable_language)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.14+a129329f1 for .NET Framework
+      Build started 8/13/2025 10:37:13 PM.
+      
+      Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.51
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:29 (enable_language)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ul10q9"
+      binary: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ul10q9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/ASUS/Desktop/rtosim/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ul10q9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05a79.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 8/13/2025 10:37:15 PM.
+        
+        Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\cmTC_05a79.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_05a79.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\Debug\\".
+          Creating directory "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05a79.dir\\Debug\\\\" /Fd"cmTC_05a79.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05a79.dir\\Debug\\\\" /Fd"cmTC_05a79.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Qt\\Tools\\CMake_64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\Debug\\cmTC_05a79.exe" /INCREMENTAL /ILK:"cmTC_05a79.dir\\Debug\\cmTC_05a79.ilk" /NOLOGO /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ul10q9/Debug/cmTC_05a79.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-ul10q9/Debug/cmTC_05a79.lib" /MACHINE:X64  /machine:x64 cmTC_05a79.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_05a79.vcxproj -> C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\Debug\\cmTC_05a79.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\Debug\\cmTC_05a79.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\cmTC_05a79.write.1u.tlog" "cmTC_05a79.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\Debug\\cmTC_05a79.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\cmTC_05a79.write.1u.tlog" "cmTC_05a79.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\ASUS\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\Debug\\cmTC_05a79.exe" "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\cmTC_05a79.write.1u.tlog" "cmTC_05a79.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\unsuccessfulbuild".
+          Touching "cmTC_05a79.dir\\Debug\\cmTC_05a79.tlog\\cmTC_05a79.lastbuildstate".
+        Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ul10q9\\cmTC_05a79.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:29 (enable_language)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:29 (enable_language)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:30 (find_dependency)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-4um8pv"
+      binary: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-4um8pv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/ASUS/Desktop/rtosim/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-4um8pv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33a35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 8/13/2025 10:37:17 PM.
+        
+        Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\cmTC_33a35.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_33a35.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\Debug\\".
+          Creating directory "cmTC_33a35.dir\\Debug\\cmTC_33a35.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_33a35.dir\\Debug\\cmTC_33a35.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_33a35.dir\\Debug\\cmTC_33a35.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33a35.dir\\Debug\\\\" /Fd"cmTC_33a35.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33a35.dir\\Debug\\\\" /Fd"cmTC_33a35.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\src.c"
+          src.c
+        C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\cmTC_33a35.vcxproj]
+        Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\cmTC_33a35.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\cmTC_33a35.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4um8pv\\cmTC_33a35.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.09
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:30 (find_dependency)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-kdht5q"
+      binary: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-kdht5q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/ASUS/Desktop/rtosim/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-kdht5q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_85d91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 8/13/2025 10:37:18 PM.
+        
+        Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\cmTC_85d91.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_85d91.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\Debug\\".
+          Creating directory "cmTC_85d91.dir\\Debug\\cmTC_85d91.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_85d91.dir\\Debug\\cmTC_85d91.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_85d91.dir\\Debug\\cmTC_85d91.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85d91.dir\\Debug\\\\" /Fd"cmTC_85d91.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85d91.dir\\Debug\\\\" /Fd"cmTC_85d91.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\Debug\\cmTC_85d91.exe" /INCREMENTAL /ILK:"cmTC_85d91.dir\\Debug\\cmTC_85d91.ilk" /NOLOGO /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-kdht5q/Debug/cmTC_85d91.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-kdht5q/Debug/cmTC_85d91.lib" /MACHINE:X64  /machine:x64 cmTC_85d91.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\cmTC_85d91.vcxproj]
+        Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\cmTC_85d91.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\cmTC_85d91.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kdht5q\\cmTC_85d91.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.10
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/ConcurrencyInstall/lib/Concurrency/ConcurrencyConfig.cmake:30 (find_dependency)"
+      - "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/.qtc/package-manager/maintenance_tool_provider.cmake:322 (find_package)"
+      - "CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-p8bc0n"
+      binary: "C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-p8bc0n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/ASUS/Desktop/rtosim/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-p8bc0n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80efd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 8/13/2025 10:37:20 PM.
+        
+        Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\cmTC_80efd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_80efd.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\Debug\\".
+          Creating directory "cmTC_80efd.dir\\Debug\\cmTC_80efd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_80efd.dir\\Debug\\cmTC_80efd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_80efd.dir\\Debug\\cmTC_80efd.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80efd.dir\\Debug\\\\" /Fd"cmTC_80efd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80efd.dir\\Debug\\\\" /Fd"cmTC_80efd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\Debug\\cmTC_80efd.exe" /INCREMENTAL /ILK:"cmTC_80efd.dir\\Debug\\cmTC_80efd.ilk" /NOLOGO /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\ASUS\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-p8bc0n/Debug/cmTC_80efd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/CMakeFiles/CMakeScratch/TryCompile-p8bc0n/Debug/cmTC_80efd.lib" /MACHINE:X64  /machine:x64 cmTC_80efd.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\cmTC_80efd.vcxproj]
+        Done Building Project "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\cmTC_80efd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\cmTC_80efd.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\ASUS\\Desktop\\rtosim\\build\\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p8bc0n\\cmTC_80efd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.08
+        
+      exitCode: 1
+...

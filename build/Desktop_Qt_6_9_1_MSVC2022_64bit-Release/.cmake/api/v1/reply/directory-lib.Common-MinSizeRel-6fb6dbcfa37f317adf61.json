@@ -1,0 +1,105 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/Common/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim",
+			"paths" : 
+			[
+				"lib/Common/rtosim/QueueData.h",
+				"lib/Common/rtosim/MarkerData.h",
+				"lib/Common/rtosim/GeneralisedCoordinatesData.h",
+				"lib/Common/rtosim/EndOfData.h",
+				"lib/Common/rtosim/QueuesSync.h",
+				"lib/Common/rtosim/FlowControl.h",
+				"lib/Common/rtosim/Common.h",
+				"lib/Common/rtosim/ExternalForceData.h",
+				"lib/Common/rtosim/ExternalLoadProperties.h",
+				"lib/Common/rtosim/ExternalForceProperties.h",
+				"lib/Common/rtosim/TimeDifference.h",
+				"lib/Common/TimeDifference.cpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim/queue",
+			"paths" : 
+			[
+				"lib/Common/rtosim/queue/MarkerSetQueue.h",
+				"lib/Common/rtosim/queue/GeneralisedCoordinatesQueue.h",
+				"lib/Common/rtosim/queue/MultipleExternalForcesQueue.h",
+				"lib/Common/rtosim/queue/ExternalTorquesQueue.h",
+				"lib/Common/rtosim/queue/ScalarVectorQueue.h",
+				"lib/Common/rtosim/queue/SingleExternalForceQueue.h",
+				"lib/Common/rtosim/queue/EmgQueue.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/MinSizeRel/Common.lib"
+			],
+			"targetId" : "Common::@2fb5612c547da95a2da8",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"cxxModuleBmiTarget" : 
+			{
+				"id" : "Common::@2fb5612c547da95a2da8",
+				"index" : 1
+			},
+			"destination" : "lib",
+			"type" : "cxxModuleBmi"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/Common",
+		"source" : "lib/Common"
+	}
+}

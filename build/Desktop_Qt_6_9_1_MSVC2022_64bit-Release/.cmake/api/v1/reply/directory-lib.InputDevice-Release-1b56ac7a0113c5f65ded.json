@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/InputDevice/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim",
+			"paths" : 
+			[
+				"lib/InputDevice/rtosim/MarkersFromTrc.h",
+				"lib/InputDevice/rtosim/InputDevice.h",
+				"lib/InputDevice/rtosim/ExternalForcesFromX.h",
+				"lib/InputDevice/rtosim/ExternalForcesFromStorageFile.h",
+				"lib/InputDevice/rtosim/GeneralisedCoordinatesFromX.h",
+				"lib/InputDevice/rtosim/GeneralisedCoordinatesFromStorageFile.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/Release/InputDevice.lib"
+			],
+			"targetId" : "InputDevice::@ef184b226c02836cf020",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/InputDevice",
+		"source" : "lib/InputDevice"
+	}
+}

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\ProgramOptionsParser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\Mapper.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\StopWatch.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\FileSystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\OsimUtilities.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\Utilities.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\ProgramOptionsParser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\Mapper.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\ArrayConverter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\StopWatch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\FileSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\rtosim\OsimUtilities.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\lib\Utilities\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{B5D78994-A49C-35F8-9AC4-F9489024FA7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{A8905B1E-8769-39F7-8393-CEAE738CAC96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

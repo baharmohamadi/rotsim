@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26837CC8-F637-3396-A88A-123289AFC4FA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>rtosim_ik_from_file</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rtosim_ik_from_file.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rtosim_ik_from_file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rtosim_ik_from_file.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rtosim_ik_from_file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">rtosim_ik_from_file.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">rtosim_ik_from_file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rtosim_ik_from_file.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rtosim_ik_from_file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ConcurrencyInstall/include" /external:I "C:/OpenSim 4.5/sdk/include" /external:I "C:/OpenSim 4.5/sdk/include/OpenSim" /external:I "C:/OpenSim 4.5/sdk/Simbody/include" /external:I "C:/OpenSim 4.5/sdk/spdlog/include" /external:I "C:/FilterInstall/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);BASE_DIR="C:/Users/ASUS/Desktop/rtosim";SPDLOG_COMPILED_LIB;WIN32;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;BASE_DIR=\"C:/Users/ASUS/Desktop/rtosim\";SPDLOG_COMPILED_LIB;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\InputDevice_d.lib;..\lib\Debug\OutputDevice_d.lib;..\lib\Debug\InverseKinematics_d.lib;..\lib\Debug\InverseDynamics_d.lib;..\lib\Debug\SignalProcessing_d.lib;..\lib\Debug\Common_d.lib;C:\ConcurrencyInstall\lib\Concurrency.lib;..\lib\Debug\Utilities_d.lib;C:\OpenSim 4.5\sdk\lib\osimTools.lib;C:\OpenSim 4.5\sdk\lib\osimAnalyses.lib;C:\OpenSim 4.5\sdk\lib\osimActuators.lib;C:\OpenSim 4.5\sdk\lib\osimSimulation.lib;C:\OpenSim 4.5\sdk\lib\osimCommon.lib;C:\OpenSim 4.5\sdk\spdlog\lib\spdlog\spdlog.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKsimbody.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKmath.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKcommon.lib;C:\OpenSim 4.5\sdk\Simbody\lib\liblapack.lib;C:\OpenSim 4.5\sdk\Simbody\lib\libblas.lib;C:\OpenSim 4.5\sdk\lib\osimLepton.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/lib/Debug/rtosim_ik_from_file.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/bin/Debug/rtosim_ik_from_file.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ConcurrencyInstall/include" /external:I "C:/OpenSim 4.5/sdk/include" /external:I "C:/OpenSim 4.5/sdk/include/OpenSim" /external:I "C:/OpenSim 4.5/sdk/Simbody/include" /external:I "C:/OpenSim 4.5/sdk/spdlog/include" /external:I "C:/FilterInstall/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;BASE_DIR="C:/Users/ASUS/Desktop/rtosim";SPDLOG_COMPILED_LIB;WIN32;_USE_MATH_DEFINES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;BASE_DIR=\"C:/Users/ASUS/Desktop/rtosim\";SPDLOG_COMPILED_LIB;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\InputDevice.lib;..\lib\Release\OutputDevice.lib;..\lib\Release\InverseKinematics.lib;..\lib\Release\InverseDynamics.lib;..\lib\Release\SignalProcessing.lib;..\lib\Release\Common.lib;C:\ConcurrencyInstall\lib\Concurrency.lib;..\lib\Release\Utilities.lib;C:\OpenSim 4.5\sdk\lib\osimTools.lib;C:\OpenSim 4.5\sdk\lib\osimAnalyses.lib;C:\OpenSim 4.5\sdk\lib\osimActuators.lib;C:\OpenSim 4.5\sdk\lib\osimSimulation.lib;C:\OpenSim 4.5\sdk\lib\osimCommon.lib;C:\OpenSim 4.5\sdk\spdlog\lib\spdlog\spdlog.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKsimbody.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKmath.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKcommon.lib;C:\OpenSim 4.5\sdk\Simbody\lib\liblapack.lib;C:\OpenSim 4.5\sdk\Simbody\lib\libblas.lib;C:\OpenSim 4.5\sdk\lib\osimLepton.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/lib/Release/rtosim_ik_from_file.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/bin/Release/rtosim_ik_from_file.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ConcurrencyInstall/include" /external:I "C:/OpenSim 4.5/sdk/include" /external:I "C:/OpenSim 4.5/sdk/include/OpenSim" /external:I "C:/OpenSim 4.5/sdk/Simbody/include" /external:I "C:/OpenSim 4.5/sdk/spdlog/include" /external:I "C:/FilterInstall/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;BASE_DIR="C:/Users/ASUS/Desktop/rtosim";SPDLOG_COMPILED_LIB;WIN32;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;BASE_DIR=\"C:/Users/ASUS/Desktop/rtosim\";SPDLOG_COMPILED_LIB;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\InputDevice.lib;..\lib\MinSizeRel\OutputDevice.lib;..\lib\MinSizeRel\InverseKinematics.lib;..\lib\MinSizeRel\InverseDynamics.lib;..\lib\MinSizeRel\SignalProcessing.lib;..\lib\MinSizeRel\Common.lib;C:\ConcurrencyInstall\lib\Concurrency.lib;..\lib\MinSizeRel\Utilities.lib;C:\OpenSim 4.5\sdk\lib\osimTools.lib;C:\OpenSim 4.5\sdk\lib\osimAnalyses.lib;C:\OpenSim 4.5\sdk\lib\osimActuators.lib;C:\OpenSim 4.5\sdk\lib\osimSimulation.lib;C:\OpenSim 4.5\sdk\lib\osimCommon.lib;C:\OpenSim 4.5\sdk\spdlog\lib\spdlog\spdlog.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKsimbody.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKmath.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKcommon.lib;C:\OpenSim 4.5\sdk\Simbody\lib\liblapack.lib;C:\OpenSim 4.5\sdk\Simbody\lib\libblas.lib;C:\OpenSim 4.5\sdk\lib\osimLepton.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/lib/MinSizeRel/rtosim_ik_from_file.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/bin/MinSizeRel/rtosim_ik_from_file.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ConcurrencyInstall/include" /external:I "C:/OpenSim 4.5/sdk/include" /external:I "C:/OpenSim 4.5/sdk/include/OpenSim" /external:I "C:/OpenSim 4.5/sdk/Simbody/include" /external:I "C:/OpenSim 4.5/sdk/spdlog/include" /external:I "C:/FilterInstall/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;BASE_DIR="C:/Users/ASUS/Desktop/rtosim";SPDLOG_COMPILED_LIB;WIN32;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;BASE_DIR=\"C:/Users/ASUS/Desktop/rtosim\";SPDLOG_COMPILED_LIB;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Desktop\rtosim\lib\rtosim;C:\Users\ASUS\Desktop\rtosim\lib\Common;C:\Users\ASUS\Desktop\rtosim\lib\InputDevice;C:\Users\ASUS\Desktop\rtosim\lib\Utilities;C:\Users\ASUS\Desktop\rtosim\lib\OutputDevice;C:\Users\ASUS\Desktop\rtosim\lib\InverseKinematics;C:\Users\ASUS\Desktop\rtosim\lib\InverseDynamics;C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing;C:\ConcurrencyInstall\include;C:\OpenSim 4.5\sdk\include;C:\OpenSim 4.5\sdk\include\OpenSim;C:\OpenSim 4.5\sdk\Simbody\include;C:\OpenSim 4.5\sdk\spdlog\include;C:\FilterInstall\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\InputDevice.lib;..\lib\RelWithDebInfo\OutputDevice.lib;..\lib\RelWithDebInfo\InverseKinematics.lib;..\lib\RelWithDebInfo\InverseDynamics.lib;..\lib\RelWithDebInfo\SignalProcessing.lib;..\lib\RelWithDebInfo\Common.lib;C:\ConcurrencyInstall\lib\Concurrency.lib;..\lib\RelWithDebInfo\Utilities.lib;C:\OpenSim 4.5\sdk\lib\osimTools.lib;C:\OpenSim 4.5\sdk\lib\osimAnalyses.lib;C:\OpenSim 4.5\sdk\lib\osimActuators.lib;C:\OpenSim 4.5\sdk\lib\osimSimulation.lib;C:\OpenSim 4.5\sdk\lib\osimCommon.lib;C:\OpenSim 4.5\sdk\spdlog\lib\spdlog\spdlog.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKsimbody.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKmath.lib;C:\OpenSim 4.5\sdk\Simbody\lib\SimTKcommon.lib;C:\OpenSim 4.5\sdk\Simbody\lib\liblapack.lib;C:\OpenSim 4.5\sdk\Simbody\lib\libblas.lib;C:\OpenSim 4.5\sdk\lib\osimLepton.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/lib/RelWithDebInfo/rtosim_ik_from_file.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/bin/RelWithDebInfo/rtosim_ik_from_file.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Desktop/rtosim/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/ASUS/Desktop/rtosim -BC:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release --check-stamp-file C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Desktop/rtosim/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/ASUS/Desktop/rtosim -BC:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release --check-stamp-file C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ASUS/Desktop/rtosim/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/ASUS/Desktop/rtosim -BC:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release --check-stamp-file C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ASUS/Desktop/rtosim/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Qt\Tools\CMake_64\bin\cmake.exe -SC:/Users/ASUS/Desktop/rtosim -BC:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release --check-stamp-file C:/Users/ASUS/Desktop/rtosim/build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\src\mainInverseKinematicsFromFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\ZERO_CHECK.vcxproj">
+      <Project>{09FF62CC-1CAF-310B-80FE-4330DFF74B85}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\Common\Common.vcxproj">
+      <Project>{F3FEB38D-40CB-3D36-9373-EB390A21CE72}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\InputDevice\InputDevice.vcxproj">
+      <Project>{F787A787-4386-38EB-9DA9-6F1E0EE6CA68}</Project>
+      <Name>InputDevice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\InverseDynamics\InverseDynamics.vcxproj">
+      <Project>{9221B3B5-0702-3959-ABA1-683DB1EE1C28}</Project>
+      <Name>InverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\InverseKinematics\InverseKinematics.vcxproj">
+      <Project>{C8BF7967-7CA6-3D83-8269-A5C2BD51484D}</Project>
+      <Name>InverseKinematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\OutputDevice\OutputDevice.vcxproj">
+      <Project>{1B07897B-8D84-3F75-AFA1-92D48E5F42F6}</Project>
+      <Name>OutputDevice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\SignalProcessing\SignalProcessing.vcxproj">
+      <Project>{B32E452F-D323-3CA6-82C0-F41ECEBBE41C}</Project>
+      <Name>SignalProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\rtosim\build\Desktop_Qt_6_9_1_MSVC2022_64bit-Release\lib\Utilities\Utilities.vcxproj">
+      <Project>{61A057C4-96AD-3A48-BEBF-B0CE6CFA1706}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

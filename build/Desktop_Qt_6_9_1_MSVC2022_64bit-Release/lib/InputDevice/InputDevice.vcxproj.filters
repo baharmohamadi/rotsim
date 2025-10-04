@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\MarkersFromTrc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\ExternalForcesFromX.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\ExternalForcesFromStorageFile.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\GeneralisedCoordinatesFromX.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\GeneralisedCoordinatesFromStorageFile.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\rtosim\MarkersFromTrc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\rtosim\InputDevice.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\rtosim\ExternalForcesFromX.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\rtosim\ExternalForcesFromStorageFile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\rtosim\GeneralisedCoordinatesFromX.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\rtosim\GeneralisedCoordinatesFromStorageFile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\lib\InputDevice\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{B104ED7F-38C3-3413-B422-C5B728706467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{47F04E4B-5C86-3ECB-B7FE-6E090D80C70B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

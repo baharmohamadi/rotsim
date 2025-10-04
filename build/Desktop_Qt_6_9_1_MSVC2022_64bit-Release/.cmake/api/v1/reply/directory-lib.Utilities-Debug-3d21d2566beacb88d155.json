@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/Utilities/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim",
+			"paths" : 
+			[
+				"lib/Utilities/rtosim/Utilities.h",
+				"lib/Utilities/rtosim/ProgramOptionsParser.h",
+				"lib/Utilities/rtosim/Mapper.h",
+				"lib/Utilities/rtosim/ArrayConverter.h",
+				"lib/Utilities/rtosim/StopWatch.h",
+				"lib/Utilities/rtosim/FileSystem.h",
+				"lib/Utilities/rtosim/OsimUtilities.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/Debug/Utilities_d.lib"
+			],
+			"targetId" : "Utilities::@0481113d28085d0ba516",
+			"targetIndex" : 7,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/Utilities",
+		"source" : "lib/Utilities"
+	}
+}

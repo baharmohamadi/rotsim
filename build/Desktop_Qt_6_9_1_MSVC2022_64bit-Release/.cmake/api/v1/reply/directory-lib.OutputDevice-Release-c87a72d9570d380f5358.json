@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/OutputDevice/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim",
+			"paths" : 
+			[
+				"lib/OutputDevice/rtosim/QueueToFileLogger.h",
+				"lib/OutputDevice/rtosim/OutputDevice.h",
+				"lib/OutputDevice/rtosim/FileLogger.h",
+				"lib/OutputDevice/rtosim/FrameCounter.h",
+				"lib/OutputDevice/rtosim/StateVisualiser.h",
+				"lib/OutputDevice/FileLogger.cpp",
+				"lib/OutputDevice/QueueToFileLogger.cpp",
+				"lib/OutputDevice/FrameCounter.cpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/Release/OutputDevice.lib"
+			],
+			"targetId" : "OutputDevice::@31be673dcad8c7d32ab2",
+			"targetIndex" : 5,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/OutputDevice",
+		"source" : "lib/OutputDevice"
+	}
+}

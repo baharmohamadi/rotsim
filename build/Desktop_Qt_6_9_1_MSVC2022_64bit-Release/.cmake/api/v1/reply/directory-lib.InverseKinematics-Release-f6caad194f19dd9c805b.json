@@ -1,0 +1,71 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"lib/InverseKinematics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/rtosim",
+			"paths" : 
+			[
+				"lib/InverseKinematics/rtosim/InverseKinematics.h",
+				"lib/InverseKinematics/rtosim/QueueToInverseKinematics.h",
+				"lib/InverseKinematics/rtosim/IKSequencer.h",
+				"lib/InverseKinematics/rtosim/IKSolverParallel.h",
+				"lib/InverseKinematics/rtosim/IKoutputs.h",
+				"lib/InverseKinematics/rtosim/JobsCreator.h",
+				"lib/InverseKinematics/rtosim/MarkersReferenceFromQueue.h",
+				"lib/InverseKinematics/rtosim/ThreadPoolJobs.h",
+				"lib/InverseKinematics/rtosim/TimeSequence.h",
+				"lib/InverseKinematics/IKoutputs.cpp",
+				"lib/InverseKinematics/ThreadPoolJobs.cpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/Release/InverseKinematics.lib"
+			],
+			"targetId" : "InverseKinematics::@71dc02479236661ca3cf",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "lib/InverseKinematics",
+		"source" : "lib/InverseKinematics"
+	}
+}

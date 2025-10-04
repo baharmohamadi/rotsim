@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\GeneralisedCoordinatesStateSpace.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\ExternalForceDataFilterStateSpace.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\MultipleExternalForcesDataFilterStateSpace.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\AdaptiveCop.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\GeneralisedCoordinatesStateSpace.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\SignalProcessingCommon.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\SignalProcessing.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\QueueAdapter.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\ExternalForceDataFilterStateSpace.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\MultipleExternalForcesDataFilterStateSpace.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\rtosim\AdaptiveCop.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\SignalProcessingCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\QueueAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\rtosim\lib\SignalProcessing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{D9FE7C61-67E4-363C-B4CB-681239B31B7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FBFBEEA7-22C5-3490-903F-F16CF1FC54F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{D4A761CE-97A6-34F8-B33E-45452AF38A75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

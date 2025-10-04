@@ -1,0 +1,114 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/RTOSIM",
+			"paths" : 
+			[
+				{
+					"from" : "build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/RTOSIMConfigForInstall.cmake",
+					"to" : "RTOSIMConfig.cmake"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/RTOSIM",
+			"paths" : 
+			[
+				"build/Desktop_Qt_6_9_1_MSVC2022_64bit-Release/RTOSIMConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/RTOSIM",
+			"exportName" : "RTOSIM_Exports",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Common::@2fb5612c547da95a2da8",
+					"index" : 1
+				},
+				{
+					"id" : "Utilities::@0481113d28085d0ba516",
+					"index" : 7
+				},
+				{
+					"id" : "InputDevice::@ef184b226c02836cf020",
+					"index" : 2
+				},
+				{
+					"id" : "OutputDevice::@31be673dcad8c7d32ab2",
+					"index" : 5
+				},
+				{
+					"id" : "InverseKinematics::@71dc02479236661ca3cf",
+					"index" : 4
+				},
+				{
+					"id" : "InverseDynamics::@57ce7b3921e353d17c0f",
+					"index" : 3
+				},
+				{
+					"id" : "SignalProcessing::@67470f21c1e6f00e75d8",
+					"index" : 6
+				},
+				{
+					"id" : "rtosim::@26b6bea64ea19d7b0110",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/fb8047ac6c960d9523675e8cfaf7449f/RTOSIM_Exports.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
