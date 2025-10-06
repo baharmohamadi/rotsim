@@ -1,4 +1,4 @@
-# rotsim
+# rtosim
 Minor compatibility fix for RTOSim (original by RealTimeBiomechanics).
 
 
